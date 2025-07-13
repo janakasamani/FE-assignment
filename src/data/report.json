@@ -1,0 +1,611 @@
+{
+  "reportResult": {
+    "id": 1,
+    "scenarioId": 1,
+    "startingDate": "2024-01-01",
+    "endingDate": "2024-12-31",
+    "createdAt": "2024-01-01T00:00:00Z",
+    "updatedAt": "2024-01-01T00:00:00Z",
+    "profitnLoss": [
+      {
+        "name": "Total Expenses",
+        "fields": [
+          {
+            "name": "Advertising",
+            "monthly" : 600,
+            "quarterly": 800,
+            "yearly": 1000,
+           "period" : {
+             "monthly": {
+              "Jan": 200,
+              "Feb": 250,
+              "Mar": 230
+            },
+            "quarterly": {
+              "Q1": 680,
+              "Q2": 720
+            },
+            "yearly": {
+              "2024": 1400
+            }
+           }
+          },
+          {
+            "name": "Bank Charges",
+             "monthly" : 500,
+            "quarterly": 800,
+            "yearly": 900,
+            "period": {
+                "monthly": {
+              "Jan": 100,
+              "Feb": 110,
+              "Mar": 120
+            },
+            "quarterly": {
+              "Q1": 330,
+              "Q2": 360
+            },
+            "yearly": {
+              "2024": 690
+            }
+            }
+          },
+          {
+            "name": "Contractor",
+              "monthly" : 200,
+            "quarterly": 600,
+            "yearly": 800,
+            "period" :{"monthly": {
+              "Jan": 100,
+              "Feb": 110,
+              "Mar": 120
+            },
+            "quarterly": {
+              "Q1": 330,
+              "Q2": 360
+            },
+            "yearly": {
+              "2024": 690
+            }}
+          }
+        ],
+        "monthly": 2000,
+        "quarterly": 40000,
+        "yearly": 100000,
+
+        "totals": {
+          "monthly": {
+            "Jan": 400,
+            "Feb": 470,
+            "Mar": 470
+          },
+          "quarterly": {
+            "Q1": 1340,
+            "Q2": 1440
+          },
+          "yearly": {
+            "2024": 2780
+          }
+        }
+      },
+      {
+        "name": "Total Revenues",
+        "fields": [
+          {
+            "name": "Product Sales",
+            "monthly" : 600,
+            "quarterly": 800,
+            "yearly": 1000,
+           "period" : {
+             "monthly": {
+              "Jan": 200,
+              "Feb": 250,
+              "Mar": 230
+            },
+            "quarterly": {
+              "Q1": 680,
+              "Q2": 720
+            },
+            "yearly": {
+              "2024": 1400
+            }
+           }
+          },
+          {
+            "name": "Service Income",
+            "monthly" : 600,
+            "quarterly": 800,
+            "yearly": 1000,
+           "period" : {
+             "monthly": {
+              "Jan": 200,
+              "Feb": 250,
+              "Mar": 230
+            },
+            "quarterly": {
+              "Q1": 680,
+              "Q2": 720
+            },
+            "yearly": {
+              "2024": 1400
+            }
+           }
+          }
+        ],
+        "totals": {
+          "monthly": {
+            "Jan": 800,
+            "Feb": 950,
+            "Mar": 870
+          },
+          "quarterly": {
+            "Q1": 2620,
+            "Q2": 2700
+          },
+          "yearly": {
+            "2024": 5320
+          }
+        },
+     
+        "monthly": 4000,
+        "quarterly": 40000,
+        "yearly": 100000
+    
+      }
+      ,
+      {
+        "name": "Total Cost of Sales",
+        "fields": [
+          {
+            "name": "Cost of Goods Sold",
+            "monthly" : 600,
+            "quarterly": 800,
+            "yearly": 1000,
+           "period" : {
+             "monthly": {
+              "Jan": 200,
+              "Feb": 250,
+              "Mar": 230
+            },
+            "quarterly": {
+              "Q1": 680,
+              "Q2": 720
+            },
+            "yearly": {
+              "2024": 1400
+            }
+           }
+          },
+          {
+            "name": "Pizza pasta pasta",
+            "monthly" : 600,
+            "quarterly": 800,
+            "yearly": 1000,
+           "period" : {
+             "monthly": {
+              "Jan": 200,
+              "Feb": 250,
+              "Mar": 230
+            },
+            "quarterly": {
+              "Q1": 680,
+              "Q2": 720
+            },
+            "yearly": {
+              "2024": 1400
+            }
+           }
+          }
+        ],
+        "totals": {
+          "monthly": {
+            "Jan": 800,
+            "Feb": 950,
+            "Mar": 870
+          },
+          "quarterly": {
+            "Q1": 2620,
+            "Q2": 2700
+          },
+          "yearly": {
+            "2024": 5320
+          }
+        },
+     
+        "monthly": 2000,
+        "quarterly": 40000,
+        "yearly": 100000
+    
+      }
+    ],
+    "metrics": {
+            "pnlKeyMetrics": {
+                "id": 21554,
+                "financialReportId": 994,
+                "name": "P&L Key Metrics",
+                "type": "pnlKeyMetrics",
+                "description": null,
+                "style": null,
+                "createdAt": "2025-05-12T08:49:21.787Z",
+                "updatedAt": "2025-05-12T08:49:21.787Z",
+                "outputs": [],
+                "actualData": [],
+                "fields": [
+                    {
+                        "id": 95032,
+                        "topLevelFieldId": 21554,
+                        "name": "PN",
+                        "code": null,
+                        "uniqueReference": {
+                            "sheetType": "PnL",
+                            "integrationSourceId": null,
+                            "sourceType": "Report",
+                            "accountId": null,
+                            "accountName": null,
+                            "metric": true
+                        },
+                        "order": null,
+                        "description": null,
+                        "style": null,
+                        "fieldType": null,
+                        "createdAt": "2025-05-21T12:48:46.267Z",
+                        "updatedAt": "2025-05-21T12:49:08.271Z",
+                        "fieldId": null,
+                        "outputs": []
+                    }
+                ],
+                "result": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "totalResult": [
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    34,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+
+            }
+        },
+    "computedFields": [
+      {
+        "name": "Net Margin",
+        "monthly": [
+          20.1,
+          21.5,
+          19.8
+        ],
+        "quarterly": [
+          20.5,
+          20.8
+        ],
+        "yearly": [
+          20.65
+        ]
+      },
+      {
+        "name": "EBITDA",
+        "monthly": [
+          400,
+          450,
+          420
+        ],
+        "quarterly": [
+          1270,
+          1300
+        ],
+        "yearly": [
+          2570
+        ]
+      }
+    ]
+  }
+}
