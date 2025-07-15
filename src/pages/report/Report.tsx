@@ -1,21 +1,24 @@
-import { useState } from "react";
 import reportData from "@data/report.json";
 import PeriodFilter from "@components/PeriodFilter";
 import ProfitLossSection from "./ProfitLossSection";
 import MetricSection from "./MetricSection";
-
-const periods = ["monthly", "quarterly", "yearly"] as const;
-type Period = (typeof periods)[number];
+import { setPeriod } from "../../redux/periodSlice";
+import type { RootState } from "../../redux/store";
+import { useDispatch, useSelector } from "react-redux";
 
 const Report = () => {
-  const [period, setPeriod] = useState<Period>("monthly");
+  const dispatch = useDispatch();
+  const period = useSelector((state: RootState) => state.period.selectedPeriod);
   const data = reportData.reportResult;
 
   return (
     <div className="p-4 space-y-6">
-      <PeriodFilter period={period} setPeriod={setPeriod} />
+      <PeriodFilter
+        period={period}
+        setPeriod={(val) => dispatch(setPeriod(val))}
+      />
       <ProfitLossSection data={data.profitnLoss} period={period} />
-      <MetricSection  />
+      <MetricSection />
     </div>
   );
 };
